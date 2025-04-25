@@ -39,7 +39,7 @@ require("lazy").setup({
     -- { import = "plugins/cmp" },   
     { import = "plugins/blink"},
     { import = "plugins/markdown" }, 
-    -- { import = "plugins/neo-tree" }, 
+     { import = "plugins/neo-tree" }, 
     { import = "plugins/tokyonight" }, 
     { import = "plugins/which-key" }, 
     { import = "plugins/guess-indent" },
