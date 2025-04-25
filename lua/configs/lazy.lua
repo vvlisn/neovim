@@ -37,7 +37,7 @@ require("lazy").setup({
     { import = "plugins/treesitter" },
     { import = "plugins/autopairs" }, 
     -- { import = "plugins/cmp" },   
-    { import = "plugins/blink"}
+    { import = "plugins/blink"},
     { import = "plugins/markdown" }, 
     -- { import = "plugins/neo-tree" }, 
     { import = "plugins/tokyonight" }, 
