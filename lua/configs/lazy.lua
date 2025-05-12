@@ -27,7 +27,7 @@ require("lazy").setup({
     -- import your plugins
     -- { import = "plugins" },
     { import = "plugins/alpha" },   
-    -- { import = "plugins/catppuccin" }, 
+    { import = "plugins/catppuccin" }, 
     { import = "plugins/gruvbox" },   
     { import = "plugins/conform" },    
     { import = "plugins/gitsigns" },  
@@ -39,8 +39,8 @@ require("lazy").setup({
     -- { import = "plugins/cmp" },   
     { import = "plugins/blink"},
     { import = "plugins/markdown" }, 
-     { import = "plugins/neo-tree" }, 
-    { import = "plugins/tokyonight" }, 
+    { import = "plugins/neo-tree" }, 
+    -- { import = "plugins/tokyonight" }, 
     { import = "plugins/which-key" }, 
     { import = "plugins/guess-indent" },
     --{ import = "plugins/lspconfig" }, 
@@ -56,7 +56,7 @@ require("lazy").setup({
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "tokyonight" } },
+  install = { colorscheme = { "catppuccin" } },
   -- automatically check for plugin updates
   checker = { 
     enabled = false,    -- 完全禁用更新检查  
